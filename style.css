@@ -26,10 +26,10 @@ body {
   font-size: 4rem;
 }
 
-#hero-section p {
+#hero-section h2 {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 i {
