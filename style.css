@@ -1,0 +1,247 @@
+body {
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+
+#hero-section {
+  background-image: 
+    linear-gradient(rgba(2,48,32,0.6), rgba(2,48,32,0.6)),
+    url("https://outwitly.com/wp-content/uploads/2023/01/01-12-2023_BlogPostHeader-1280x852.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  text-shadow: 4px 3px #66785F;
+}
+
+#hero-section h1 {
+  color: #ffffff;
+  font-family: "Marcellus", serif;
+  font-size: 4.5rem;
+}
+
+#hero-section p {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-shadow: none;
+}
+
+#footer-section {
+  text-align: center;
+  background-color: #4B5945;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 4rem;
+}
+
+#footer-section p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+i {
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+
+@media screen and (orientation: landscape) {
+  i {
+    margin-left: 20px;
+  }
+}
+
+.nav-item {
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+
+#efforts-section {
+  background-color: #B2C9AD;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  #efforts-section {
+    padding: 2rem 4rem 4rem 4rem;
+  }
+}
+
+#efforts-section h1 {
+  text-align: center;
+  font-family: "Montserrat", serif;
+  color: #244404;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  #efforts-section h1 {
+    padding-top: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #efforts-section h1 {
+    padding-bottom: 2rem;
+  }
+}
+
+#efforts-section img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5%;
+}
+
+#efforts-section p {
+  padding: 1em;
+  font-family: Arial, sans-serif;
+}
+
+#effects-section {
+  background-color: #EFF5DD;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  #effects-section {
+    padding: 2rem 2rem 4rem 2rem;
+  }
+}
+
+#effects-section h1 {
+  color: #4B5945;
+  padding: 1rem 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#effects-section p {
+  padding: 1em;
+  font-family: Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  #effects-section h1 {
+    padding-bottom: 3rem;
+  }
+}
+
+#effects-section i {
+  color: #AFB9E4;
+  font-size: 4rem;
+}
+
+#effects-section i:hover {
+  color: #424874;
+}
+
+#effects-section img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5%;
+}
+
+#experience-section {
+  background-color: #B2C9AD;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #experience-section {
+    padding: 2rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #experience-section {
+    padding: 3rem 4rem 5rem 4rem;
+  }
+}
+
+#experience-section i {
+  font-size: 4rem;
+  color: #424874;
+}
+
+#experience-section h1 {
+  padding-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #244404;
+}
+
+@media (min-width: 768px) {
+  #experience-section h1 {
+    padding-bottom: 2rem;
+  }
+}
+
+#experience-section p {
+  font-family: Arial, sans-serif;
+}
+
+#experience-section img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5%;
+}
+
+#accessibility-section {
+  background-color: #EFF5DD;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #accessibility-section {
+    padding: 2rem 2rem 4rem 2rem;
+  }
+}
+
+#accessibility-section h1 {
+  color: #4B5945;
+  padding: 1rem 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 768px) {
+  #accessibility-section h1 {
+    padding-bottom: 3rem;
+  }
+}
+
+#accessibility-section img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5%;
+}
+
+#hero-section,
+#footer-section,
+#efforts-section,
+#effects-section,
+#experience-section,
+#accessibility-section {
+  overflow: hidden;
+}
+
+#efforts-target,
+#effects-target,
+#experience-target,
+#accessibility-target {
+  position: relative;
+  top: -100px;
+}
