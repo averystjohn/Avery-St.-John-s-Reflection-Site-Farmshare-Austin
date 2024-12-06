@@ -33,21 +33,6 @@ body {
   text-shadow: none;
 }
 
-#footer-section {
-  text-align: center;
-  background-color: #4B5945;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 4rem;
-}
-
-#footer-section p {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
 i {
   color: #FFFFFF;
   font-size: 2rem;
@@ -145,15 +130,6 @@ i {
   #effects-section h1 {
     padding-bottom: 3rem;
   }
-}
-
-#effects-section i {
-  color: #AFB9E4;
-  font-size: 4rem;
-}
-
-#effects-section i:hover {
-  color: #424874;
 }
 
 #effects-section img {
@@ -274,6 +250,21 @@ i {
   object-position: center;
   margin-bottom: 2rem;
  } 
+}
+
+#footer-section {
+  text-align: center;
+  background-color: #4B5945;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 4rem;
+}
+
+#footer-section p {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 #hero-section,
