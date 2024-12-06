@@ -4,7 +4,7 @@ body {
 }
 
 #hero-section {
-  background-image: 
+  background-image:
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url("https://outwitly.com/wp-content/uploads/2023/01/01-12-2023_BlogPostHeader-1280x852.jpg");
   background-position: center;
@@ -67,6 +67,7 @@ i {
 #efforts-section {
   background-color: #B2C9AD;
   padding: 1rem;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -102,6 +103,17 @@ i {
   border-radius: 5%;
 }
 
+@media (max-width: 768px) {
+  #efforts-section img {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5%;
+  margin-bottom: 2rem;
+ } 
+}
+
 #efforts-section p {
   padding: 1em;
   font-family: Arial, sans-serif;
@@ -110,6 +122,7 @@ i {
 #effects-section {
   background-color: #EFF5DD;
   padding: 1rem;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -152,6 +165,17 @@ i {
   border-radius: 5%;
 }
 
+@media (max-width: 768px) {
+  #effects-section img {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5%;
+  margin-bottom: 2rem;
+ } 
+}
+
 #experience-section {
   background-color: #B2C9AD;
   text-align: center;
@@ -188,6 +212,7 @@ i {
 
 #experience-section p {
   font-family: Arial, sans-serif;
+  padding: 1em;
 }
 
 #experience-section img {
@@ -196,6 +221,17 @@ i {
   object-fit: cover;
   object-position: center;
   border-radius: 5%;
+}
+
+@media (max-width: 768px) {
+  #experience-section img {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5%;
+  margin-bottom: 2rem;
+ } 
 }
 
 #accessibility-section {
@@ -221,12 +257,27 @@ i {
   }
 }
 
+#accessibility-section p {
+  padding-bottom: 1rem;
+}
+
 #accessibility-section img {
   width: 100%;
   height: auto;
   object-fit: cover;
   object-position: center;
   border-radius: 5%;
+}
+
+@media (max-width: 768px) {
+  #accessibility-section img {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5%;
+  margin-bottom: 2rem;
+ } 
 }
 
 #hero-section,
