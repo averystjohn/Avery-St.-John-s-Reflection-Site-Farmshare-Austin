@@ -23,13 +23,13 @@ body {
 #hero-section h1 {
   color: #ffffff;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 5rem;
+  font-size: 4.5rem;
 }
 
-#hero-section h2 {
+#hero-section p {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 i {
@@ -60,7 +60,7 @@ i {
   }
 }
 
-#efforts-section h1 {
+#efforts-section h2 {
   text-align: center;
   font-family: "Montserrat", serif;
   color: #244404;
@@ -68,13 +68,13 @@ i {
 }
 
 @media (max-width: 767px) {
-  #efforts-section h1 {
+  #efforts-section h2 {
     padding-top: 0.5rem;
   }
 }
 
 @media (min-width: 768px) {
-  #efforts-section h1 {
+  #efforts-section h2 {
     padding-bottom: 2rem;
   }
 }
@@ -114,21 +114,21 @@ i {
   }
 }
 
-#effects-section h1 {
+#effects-section h2 {
   color: #4B5945;
   padding: 1rem 0;
   font-family: "Montserrat", sans-serif;
 }
 
+@media (min-width: 768px) {
+  #effects-section h2 {
+    padding-bottom: 3rem;
+  }
+}
+
 #effects-section p {
   padding: 1em;
   font-family: Arial, sans-serif;
-}
-
-@media (min-width: 768px) {
-  #effects-section h1 {
-    padding-bottom: 3rem;
-  }
 }
 
 #effects-section img {
@@ -171,14 +171,14 @@ i {
   color: #424874;
 }
 
-#experience-section h1 {
+#experience-section h2 {
   padding-bottom: 1rem;
   font-family: "Montserrat", sans-serif;
   color: #244404;
 }
 
 @media (min-width: 768px) {
-  #experience-section h1 {
+  #experience-section h2 {
     padding-bottom: 2rem;
   }
 }
@@ -217,14 +217,14 @@ i {
   }
 }
 
-#accessibility-section h1 {
+#accessibility-section h2 {
   color: #4B5945;
   padding: 1rem 0;
   font-family: "Montserrat", sans-serif;
 }
 
 @media (min-width: 768px) {
-  #accessibility-section h1 {
+  #accessibility-section h2 {
     padding-bottom: 3rem;
   }
 }
